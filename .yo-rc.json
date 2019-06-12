@@ -1,0 +1,53 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "vn.sun.mylog",
+      "nativeLanguage": "vi"
+    },
+    "jhipsterVersion": "6.0.1",
+    "applicationType": "monolith",
+    "baseName": "myblog",
+    "packageName": "vn.sun.mylog",
+    "packageFolder": "vn/sun/mylog",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "MjQ3MzE0ZGJhODVjZjVlMmNmZjRmZTU0OTNmZmQ1YzkzMDUyM2MyOGZhZGEzOTk4NjRjN2QyMDI1Yzc0MmVhZGFhYjZkYTNhMzIwYzMxMTVmZDA1NTQ1MWZhZGYwMGJkOGI2MzdmNmFmMTRmMjNmMDUzOTBlYjY2Y2JkNWM5NmQ=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.0.0"
+      }
+    ],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "vi",
+    "languages": ["vi", "en"],
+    "blueprint": "generator-jhipster-vuejs",
+    "blueprintVersion": "1.0.0"
+  },
+  "generator-jhipster-vuejs": {
+    "jhipsterVersion": "6.0.1",
+    "applicationType": "monolith",
+    "baseName": "myblog",
+    "clientFramework": "vue",
+    "clientTheme": "darkly",
+    "clientThemeVariant": "dark",
+    "useSass": true,
+    "clientPackageManager": "npm"
+  }
+}
